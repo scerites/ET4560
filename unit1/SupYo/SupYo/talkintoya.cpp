@@ -6,6 +6,8 @@ Tells you Sup Yo.
 
 
 #include <iostream> //Include all this files crap here.
+#define PI 3.14159 //OLD SCHOO
+const double PI 3.14159; //NEW SCHOO. WHY BEN????????WHY????
 
 using namespace std;//Name the spot/space we be usin.
 
