@@ -11,7 +11,7 @@ using namespace std;//Name the spot/space we be usin.
 
 int main()//Da Main stuff
 {
-	cout << "Dan is trying to make programming interesting and failing.." << endl;
+	cout << "Dan is trying to make programming interesting and failing..\n\n\n\n\n\n\t\f";
 
 	cin.get();
 	return 0;//release used RAM To the OS so it can be Good.
