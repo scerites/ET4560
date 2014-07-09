@@ -6,7 +6,7 @@ int main()
 {
 	int number = 1;
 
-	while (number <= 5)
+	while (0)
 	{
 		cout << "Hello   ";
 		cout << number << endl;

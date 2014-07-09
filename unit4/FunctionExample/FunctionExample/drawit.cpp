@@ -2,57 +2,31 @@
 #include <iostream>
 using namespace std;
 
-/***************************************
-*                head                *
-* This function displays a head.   *
-***************************************/
-void head()
+
+
+int yippie(int a, int b)
 {
-	cout << "\t ********\n";
-	cout << "\t *      *\n";
-	cout << "\t * ^  ^ *\n";
-	cout << "\t *  @   *\n";
-	cout << "\t * ---- *\n";
-	cout << "\t *      *\n";
-	cout << "\t ********\n";
+	int globaldude = 99;//local
+	cout << "Here is Global: " << globaldude << endl;
+	int total = a + b;
+	return total;
 }
 
-/***************************************
-*                body              *
-* This function displays a body.   *
-***************************************/
-void body()
-{
-	cout << "\t**********\n";
-	cout << "\t** **** **\n";
-	cout << "\t** **** **\n";
-	cout << "\t** **** **\n";
-	cout << "\t** **** **\n";
-	cout << "\t**********\n";
-}
-
-/***************************************
-*               legs             *
-* This function displays legs.   *
-***************************************/
-void legs()
-{
-	cout << "\t **  **\n";
-	cout << "\t **  **\n";
-	cout << "\t **  **\n";
-	cout << "\t **  **\n";
-	cout << "\t **  **\n";
-	cout << "\t **  **\n";
-}
 /***************************************
 *                 main                *
 ***************************************/
 int main()
 {
+	cout << "Here is Global: " << globaldude << endl;
 	cout << "I am starting in function main.\n\n";
-	head();	   // Call function first
-	body();	// Call function second
-	legs();	// Call function second
+	int addedamount;
+	int num1 = 10;
+
+	int num2 = 30;
+	addedamount = yippie(num1, num2);
+	cout << "Kevin Says...the AMount is: ";
+	cout << addedamount << endl;
+	
 	cout << "Back in function main again.\n\n";
 	cin.get();
 	return 0;
