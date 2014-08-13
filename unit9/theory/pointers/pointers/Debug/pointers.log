@@ -1,13 +1,14 @@
-﻿Build started 8/12/2014 4:31:13 PM.
-     1>Project "D:\danb\Google Drive\GitHub\ET4560\unit9\theory\pointers\pointers\pointers.vcxproj" on node 2 (Build target(s)).
+﻿Build started 8/12/2014 6:30:31 PM.
+     1>Project "C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\pointers\pointers.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt codePointer.cpp
          codePointer.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\danb\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\danb\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\danb\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.lib" /MACHINE:X86 Debug\codePointer.obj
-         pointers.vcxproj -> D:\danb\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.exe
-     1>Done Building Project "D:\danb\Google Drive\GitHub\ET4560\unit9\theory\pointers\pointers\pointers.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.lib" /MACHINE:X86 Debug\codePointer.obj
+         LINK : C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.exe not found or not built by the last incremental link; performing full link
+         pointers.vcxproj -> C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\Debug\pointers.exe
+     1>Done Building Project "C:\Users\Dan\Google Drive\GitHub\ET4560\unit9\theory\pointers\pointers\pointers.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.47
+Time Elapsed 00:00:01.57
